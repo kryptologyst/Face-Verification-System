@@ -1,0 +1,41 @@
+# Face Verification System Requirements
+
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=8.3.0
+matplotlib>=3.4.0
+scikit-learn>=1.0.0
+
+# Face recognition libraries
+face_recognition>=1.3.0
+deepface>=0.0.75
+
+# Machine learning and transformers
+torch>=1.9.0
+transformers>=4.20.0
+datasets>=2.0.0
+evaluate>=0.4.0
+
+# Web interface
+streamlit>=1.20.0
+plotly>=5.0.0
+
+# Configuration and utilities
+PyYAML>=6.0
+pathlib2>=2.3.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Optional: GPU support (uncomment if needed)
+# torch-audio>=0.9.0
+# torch-vision>=0.10.0
+
+# Optional: Additional face recognition models
+# insightface>=0.7.0
+# facenet-pytorch>=2.5.0

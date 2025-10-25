@@ -1,0 +1,38 @@
+# Face Verification System Configuration
+
+# Distance thresholds for different methods
+thresholds:
+  face_recognition: 0.6
+  deepface: 0.4
+  transformers: 0.3
+
+# Enable/disable different methods
+models:
+  face_recognition: true
+  deepface: true
+  transformers: true
+
+# Model configurations
+transformers_model: "facebook/deit-base-distilled-patch16-224"
+image_size: [224, 224]
+confidence_threshold: 0.5
+
+# Distance methods
+distance_methods:
+  - euclidean
+  - cosine
+  - manhattan
+
+# Default distance method
+default_distance_method: euclidean
+
+# Logging configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# Visualization settings
+visualization:
+  figure_size: [12, 6]
+  dpi: 300
+  save_format: png
